@@ -3,6 +3,17 @@
         display: inline !important;
     }
     #home {
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;        
+    }
+    #home div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
     }
 }
