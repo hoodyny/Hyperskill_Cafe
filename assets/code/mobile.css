@@ -23,11 +23,3 @@
         flex-wrap: wrap;
     }
 }
-
-@media screen and (min-width:450px) and (max-width:649px) {
-    #products div:nth-child(3) {
-        width: 200px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
