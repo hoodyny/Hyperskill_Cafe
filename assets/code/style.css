@@ -30,6 +30,7 @@ nav {
 .appearance {
     height: 180px;
     opacity: 1;
+    display: inherit;
 }
 .left {
     display: flex;
@@ -47,4 +48,8 @@ nav {
 .flex {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+.w-50{
+    width: 50vw;
 }
